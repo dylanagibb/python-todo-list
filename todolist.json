@@ -1,0 +1,52 @@
+{
+    "work-todo": {
+        "name": "Work Todo List", 
+        "items": {
+            "install-eslint-on-clean-receivers-list-lambda": {
+                "title": "Clean Receiver Pipeline Fix", 
+                "description": "Fix the Clean Receivers List Pipeline. Requires ESLint Install on buildspec.", 
+                "done": true
+            }, 
+            "add-eslint-to-magnolia-manage-api": {
+                "title": "Add ESLint to the Magnolia Manage API", 
+                "description": "Install and add ESlint to the Magnolia Manage API. Add them to buildspec.", 
+                "done": true
+            }, 
+            "assign-describe-cluster-to-iam-eks-user-mapper-pipeline": {
+                "title": "Assign the relevant DescribeCluster permissions to IAM EKS User Mapper", 
+                "description": "From the IAM console assign a role with DescribeCluster permissions to IAM EKS User Mapper", 
+                "done": false
+            }, 
+            "create-lambda-to-test-sentry-performance-tracing": {
+                "title": "Create a Lambda to test Sentry Performance Tracing", 
+                "description": "Using codestar, generate a lambda that will be used to test Sentry Performance Tracing.", 
+                "done": false
+            }, 
+            "create-sentry-project-to-test-sentry-performance-tracing": {
+                "title": "Create a Sentry Project to test Sentry Performance Tracing", 
+                "description": "Using Sentrys console, create a project to link to the Lambda created on Codestar.", 
+                "done": false
+            }, 
+            "change-instance-type-for-fea-node-group-in-terraform-eks-webapp-cluster-fea-cluster": {
+                "title": "Change the Instance type for fea in Terraform EKS Webapp Cluster fea", 
+                "description": "Change the Instance type for feature environment node group in the Terraform EKS Webapp Cluster fea cluster from t3a.large to t3a.xlarge.", 
+                "done": true
+            },
+            "clean-receiver-list-job-add-conditional-check": {
+                "title": "Add Conditional Check to Clean Receiver List Lambda",
+                "description": "Add a check to the Clean Receiver List Lambda to ensure that the logic is not run on prd",
+                "done": false
+            },
+            "fix-stage-cluster-name-on-create-pipeline-for-iam-eks-user-mapper": {
+                "title": "Fix Cluster name on IAM EKS User Mapper Pipeline",
+                "description": "Change the Cluster environment name to '/stg' instead of '/stgs'",
+                "done": false
+            },
+            "resolve-conflicts-and-get-approval-on-pull-request-6786": {
+                "title": "Resolve Conflicts and Get Approval on PR 6786",
+                "description": "Resolve Conflicts and get approval on Pull Request 6787, latest change is to remove the double 'npm' while installing eslint-cli",
+                "done": false
+            }
+        }
+    }
+}
